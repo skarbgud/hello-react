@@ -1,11 +1,7 @@
-import './App.css';
-import { Component } from 'react';
+import MyComponent from "./MyComponent";
 
-class App extends Component {
-  render() {
-    const name = '리액트';
-    return <div className="react">{name}</div>;
-  }
-}
+const App = () => {
+  return <MyComponent />;
+};
 
 export default App;
